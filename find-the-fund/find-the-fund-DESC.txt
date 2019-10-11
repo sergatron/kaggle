@@ -1,0 +1,19 @@
+Columns Description
+ID - Id of the Company
+company_name - Name of the Company
+website - Company Website URL
+op_status - Operational status (0 = closed or operating, 1 = acquired)
+domain - Industry Category of the company, including up to four subcategory divisions
+founded_on - The date the company was founded (in string format ‘2003-09-04’)
+hq_country_code - Country Code of the company’s HQ
+hq_state_code - State Code of the company’s HQ
+hq_region - Region of the company’s HQ
+hq_city - City of the company’s HQ
+total_funding_usd - Total Amount raised in all the funding rounds
+funding_rounds - Total count of the funding rounds
+first_funding_date -Date the company first raised funding (in string format ‘2008-07-11’)
+last_funding_date - Date the company last raised funding (in string format ‘2010-10-28’)
+num_investors - Number of investors
+first_funding_utc - Time (in UTC) the company first raised funding (in string format ‘2010-10-28’)
+last_funding_utc - Time (in UTC) the company last raised funding (in string format ‘2010-10-28’)
+successful_investment - Output Label; whether investment will be successful or not (0 = unsuccessful, 1 = successful)
